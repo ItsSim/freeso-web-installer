@@ -45,5 +45,5 @@ Once successfully done:
 * The user can directly run the game.
 * The user now has the option to download the launcher.
 
-![Desktop - 5](https://github.com/ItsSim/freeso-web-installer/assets/35347872/6afe196e-0655-491b-843d-e90a8fe90b1e)
+![Desktop - 5](https://github.com/ItsSim/freeso-web-installer/assets/35347872/9656e571-0556-46de-a7b7-50c3dba33f01)
 
