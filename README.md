@@ -27,16 +27,16 @@ Hosted at https://beta.freeso.org/install, this web installer uses a small Node.
 
 ## Preview 3 - Desktop utility has been detected
 * The user can now pick additional tasks to be done by the utility.
-  * The user can choose to install the remesh package or not.
-  * The user can choose to create desktop shortcuts (one for 2D, another one for 3D).
+  - The user can choose to install the remesh package or not.
+  - The user can choose to create desktop shortcuts (one for 2D, another one for 3D).
 * The user can now begin the installation.
 
 ![Desktop - 2](https://github.com/ItsSim/freeso-web-installer/assets/35347872/fb72d5ba-280c-40ae-a211-7d6dd0dfb1ce)
 
 ## Preview 4 - Installation progress
 * The installation progress is shown in two ways:
-  * Completion percentage.
-  * Log of actions taken by the utility for transparency.
+  - Completion percentage.
+  - Log of actions taken by the utility for transparency.
 
 ![Desktop - 4](https://github.com/ItsSim/freeso-web-installer/assets/35347872/7edd8e62-2f92-4a10-8caa-f15a887affc1)
 
