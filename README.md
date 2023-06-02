@@ -23,7 +23,7 @@ Hosted at https://beta.freeso.org/install, this web installer uses a small Node.
 * The utility will host a web server locally which can be called by the online website.
 * The online interface will only allow the user to continue if the utility has been detected as running.
 
-![Desktop - 3](https://github.com/ItsSim/freeso-web-installer/assets/35347872/01456db2-4d8a-4bc1-a4d1-ff5b5f7cb963)
+![Desktop - 3](https://github.com/ItsSim/freeso-web-installer/assets/35347872/4375f0f3-f931-40c7-987e-c2313efe6856)
 
 ## Preview 3 - Desktop utility has been detected
 * The user can now pick additional tasks to be done by the utility.
@@ -31,19 +31,19 @@ Hosted at https://beta.freeso.org/install, this web installer uses a small Node.
   * The user can choose to create desktop shortcuts (one for 2D, another one for 3D).
 * The user can now begin the installation.
 
-![Desktop - 2](https://github.com/ItsSim/freeso-web-installer/assets/35347872/3b8c8701-c12b-4e02-8fb7-f7ef60d75d78)
+![Desktop - 2](https://github.com/ItsSim/freeso-web-installer/assets/35347872/fb72d5ba-280c-40ae-a211-7d6dd0dfb1ce)
 
 ## Preview 4 - Installation progress
 * The installation progress is shown in two ways:
   * Completion percentage.
   * Log of actions taken by the utility for transparency.
 
-![Desktop - 4](https://github.com/ItsSim/freeso-web-installer/assets/35347872/b320eb40-99e4-4469-8a64-473cd85ff953)
+![Desktop - 4](https://github.com/ItsSim/freeso-web-installer/assets/35347872/7edd8e62-2f92-4a10-8caa-f15a887affc1)
 
 ## Preview 5 - Installation finished
 Once successfully done:
 * The user can directly run the game.
 * The user now has the option to download the launcher.
 
-![Desktop - 5](https://github.com/ItsSim/freeso-web-installer/assets/35347872/9656e571-0556-46de-a7b7-50c3dba33f01)
+![Desktop - 5](https://github.com/ItsSim/freeso-web-installer/assets/35347872/99ab5e74-ff6b-4943-a41a-7459fd089d92)
 
