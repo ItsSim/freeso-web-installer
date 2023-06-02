@@ -6,7 +6,7 @@ Hosted at https://beta.freeso.org/install, this web installer uses a small Node.
 * This approach has been used in (and has been proven to work), for example, in Dell's Driver installation website: https://www.dell.com/support/home/en-us?app=drivers
 
 ### Advantages 
-* Super lightweight and more efficient than using a launcher.
+* Super lightweight and more efficient than using a full desktop program.
 * Easy cross-platform support the get-go.
 * Quicker than other installation methods.
 * Installs just the necessary software for the game to run.
