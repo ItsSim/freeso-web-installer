@@ -2,7 +2,7 @@
 Web-based installer that uses a lightweight desktop utility to install the game via https://beta.freeso.org/install
 
 ## Technical details
-Hosted at https://beta.freeso.org/install, this web installer uses a small Node.js program (a web server) that the user can run to handle the installation. All interactivity with the installer is made through the online web interface at beta.freeso.org, which calls the desktop API hosted via the utility.
+Hosted at https://beta.freeso.org/install, this web installer uses a small Node.js program (a socket server) that the user can run to handle the installation. All interactivity with the installer is made through the online web interface at beta.freeso.org, which calls the desktop API hosted via the utility.
 * This approach has been used in (and has been proven to work), for example, in Dell's Driver installation website: https://www.dell.com/support/home/en-us?app=drivers
 
 ### Advantages 
