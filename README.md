@@ -2,14 +2,22 @@
 Web-based installer that uses a lightweight desktop utility to install the game via https://beta.freeso.org/install
 
 ## Technical details
-Hosted at https://beta.freeso.org/install, this web installer uses a small Node.js program (a socket server) that the user can run to handle the installation. All interactivity with the installer is made through the online web interface at beta.freeso.org, which calls the desktop API hosted via the utility.
+Hosted at https://beta.freeso.org/install, this web installer uses a small Node.js program (a WebSocket server) that the user can run to handle the installation. All interactivity with the installer is made through the online web interface at beta.freeso.org, which calls the WebSocket server hosted via the desktop utility.
 * This approach has been used in (and has been proven to work), for example, in Dell's Driver installation website: https://www.dell.com/support/home/en-us?app=drivers
 
 ### Advantages 
-* Super lightweight and more efficient than using a full desktop program.
-* Easy cross-platform support the get-go.
-* Quicker than other installation methods.
-* Installs just the necessary software for the game to run.
+* Smaller and more efficient than using a full desktop program.
+* Cross-platform (Windows, macOS, linux)
+* Precise - it installs just the necessary software for the game to run.
+* More compatible - less points of failure.
+   > By removing the dependency on desktop GUI frameworks like Electron, there are less points of failure. The utility includes precisely what is needed for it to function: Node.js and a C++ library for invoking a native file/folder picker. This maximizes compatibility for desktop devices.
+
+### Architecture
+A monorepo consisting of 4 packages:
+* **desktop-core** - Core Typescript library used in the desktop-utility and web-installer packages. Should be used by the launcher in the future.
+* **desktop-picker** - Node.js bindings for [nativefiledialog-extended](nativefiledialog-extended), a cross-platform file and folder picker.
+* **desktop-utility** - Node.js program that hosts the WebSocket server on the user's machine.
+* **web-installer** - Frontend web app hosted @ beta.freeso.org, communicates with desktop-utility via WebSockets.
 
 ## Preview 1 - Modified signup page
 * The web installer would be the preferred installation method, since it's just quicker and less of a hassle than installing and using a full desktop program. 
