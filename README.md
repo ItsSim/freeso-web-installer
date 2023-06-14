@@ -15,7 +15,8 @@ Hosted at https://beta.freeso.org/install, this web installer uses a small Node.
 ### Architecture
 A monorepo consisting of 4 packages:
 * **desktop-core** - Core Typescript library used in the desktop-utility and web-installer packages. Should be used by the launcher in the future.
-* **desktop-picker** - Node.js bindings for [nativefiledialog-extended](nativefiledialog-extended), a cross-platform file and folder picker.
+* **desktop-native** - Node.js bindings for native C++ libraries
+  (for splash-screen and file/folder picker dialogs).
 * **desktop-utility** - Node.js program that hosts the WebSocket server on the user's machine.
 * **web-installer** - Frontend web app hosted @ beta.freeso.org, communicates with desktop-utility via WebSockets.
 
@@ -28,6 +29,9 @@ A monorepo consisting of 4 packages:
 
 ## Preview 2 - Download and run the desktop utility
 * The user will have to download the executable and run it.
+
+  ![node_ykSzL264d4](https://github.com/ItsSim/freeso-web-installer/assets/35347872/a61b5caf-8264-491f-8e52-b8939fdc499f)
+
 * The utility will host a web server locally which can be called by the online website.
 * The online interface will only allow the user to continue if the utility has been detected as running.
 
