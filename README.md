@@ -30,7 +30,7 @@ A monorepo consisting of 4 packages:
 ## Preview 2 - Download and run the desktop utility
 * The user will have to download the executable and run it.
 
-  ![node_ykSzL264d4](https://github.com/ItsSim/freeso-web-installer/assets/35347872/a61b5caf-8264-491f-8e52-b8939fdc499f)
+  ![image](https://github.com/ItsSim/freeso-web-installer/assets/35347872/aba53072-ca20-4c5c-8b32-bab3a5115bef)
 
 * The utility will host a web server locally which can be called by the online website.
 * The online interface will only allow the user to continue if the utility has been detected as running.
